@@ -53,9 +53,23 @@ order by 1,2
 
 ## Нарисовать модель данных в SQLdbm
 
-![](Pics/data_model_physical_v4.png)
+* Концептуальная модель
 
-Структура данных:
+![image](https://user-images.githubusercontent.com/98317081/220677412-fde2e0a0-c227-413a-a669-ae3b80a77119.png)
+
+* Логическая модель
+
+![image](https://user-images.githubusercontent.com/98317081/220660251-65aed5e3-9a39-4e3a-b272-32541c3a49e0.png)
+
  
 
 ## Создать базу данных в облаке
+
+Создал базу данных через AWS RDS, помог этот [туториал](https://github.com/Data-Learn/data-engineering/blob/4d4d30ecfac25e5fc9d45bc00cbf5a99e25df049/how-to/how_to_amazon_rds.md)
+
+Далее подключился к ней через DBeaver, залил данные и сделал тестовый запрос:
+
+![image](https://user-images.githubusercontent.com/98317081/220681818-c852c8ad-2a39-4ea9-a60a-d3980cfaba76.png)
+
+
+## Нарисовать графики в Google Sheets
