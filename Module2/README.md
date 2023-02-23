@@ -72,4 +72,21 @@ order by 1,2
 ![image](https://user-images.githubusercontent.com/98317081/220681818-c852c8ad-2a39-4ea9-a60a-d3980cfaba76.png)
 
 
-## Нарисовать графики в Google Sheets
+## Подключиться к облачной базе данных через Data studio (lookerstudio)
+
+Сначала добавил в настройках приватности базы данных пару актуальных на 2023 год ip [Data studio](https://support.google.com/looker-studio/answer/7288010?hl=en&ref_topic=7332343#zippy=%2Cin-this-article)
+
+![image](https://user-images.githubusercontent.com/98317081/221028088-47349d0d-525c-41e0-a384-7f6722fdbe66.png)
+![image](https://user-images.githubusercontent.com/98317081/221028137-425e9b70-a5a4-4c98-a4ff-e4fbacf100f8.png)
+
+Запросом обьединил таблицы из dw schema
+```sql
+select * from dw.sales_fact sf
+ inner join dw.shipping_dim s  on sf.ship_id = s.ship_id
+ inner join dw.geo_dim g       on sf.geo_id  = g.geo_id
+ inner join dw.product_dim p   on sf.prod_id = p.prod_id
+ inner join dw.customer_dim cd on sf.cust_id = cd.cust_id
+```
+
+
+
