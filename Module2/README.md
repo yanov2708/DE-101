@@ -88,5 +88,11 @@ select * from dw.sales_fact sf
  inner join dw.customer_dim cd on sf.cust_id = cd.cust_id
 ```
 
+Преобразовал order_date_id в order_date и постороил дашборд + сводную таблицу
+```sql
+PARSE_DATE("%Y%m%d", CAST(order_date_id  AS TEXT))
+```
+![image](https://user-images.githubusercontent.com/98317081/221157723-79307215-5129-4877-b045-e51861dae578.png)
 
+![image](https://user-images.githubusercontent.com/98317081/221156249-6f6df192-504f-4e84-b35e-c273e11b4e5b.png)
 
