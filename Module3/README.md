@@ -39,8 +39,10 @@
 
 ### В результате вышел такой дашборд:
 
-[Tableau public]()
+[Tableau public](https://public.tableau.com/app/profile/yakiv.bondarets/viz/Airbnb_16787448284950/Dashboard)
 
-Скрин:
+### Скрин результата:
 
+
+![main](https://user-images.githubusercontent.com/98317081/224846226-95ec7b0d-12ee-47cb-827d-5d89198ed757.jpg)
 
