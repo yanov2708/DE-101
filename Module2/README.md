@@ -90,7 +90,7 @@ select * from dw.sales_fact sf
 ```sql
 PARSE_DATE("%Y%m%d", CAST(order_date_id  AS TEXT))
 ```
-![image](https://user-images.githubusercontent.com/98317081/221157723-79307215-5129-4877-b045-e51861dae578.png)
+![image](https://user-images.githubusercontent.com/98317081/230920377-22e3867c-8399-4b92-9c50-53eded457167.png)
 
 ![image](https://user-images.githubusercontent.com/98317081/221156249-6f6df192-504f-4e84-b35e-c273e11b4e5b.png)
 
