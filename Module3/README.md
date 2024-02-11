@@ -1,6 +1,6 @@
 # Модуль 3: Визуализация данных, дашборды и отчетность - Business Intelligence.
 
-Установил Tableau и в качестве практики повторил два двашборда по Superstore набору
+Установил Tableau и в качестве практики повторил два двашборда по Superstore набору:
 
 [Profitability Overview](https://public.tableau.com/views/Superstore_prac_16774887863090/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
